@@ -7,7 +7,14 @@ Boîte à rythme algorithmique pour la création de motifs rythmiques MIDI. L'al
 Il est implémenté dans un programme réalisé avec Processing pour tester mais surtout dans un circuit utilisant un arduino nano, un écran monochrome de petite taille, un encodeur rotatif et quelques boutons multifonctions. L'ensemble tient sur une plaque d'essai de petit format.  
 On peut aussi se fabriquer un PCB (réalisé sur kicad), mais ce n'est pas tout à fait au point...
 
+## Principe et utilisation
+
+TODO
+
+
 ## Prototypes
+
+### Version logiciel
 
 Deux programmes réalisés avec processing pour tester l'algorithme. La version 001 implémente l'algorithme, sans plus. La version 003 est fonctionnelle pour envoyer les commandes MIDI, sauvegarder les *presets* et les *patterns*.
 
@@ -15,7 +22,7 @@ Deux programmes réalisés avec processing pour tester l'algorithme. La version 
 
 ![version 003](./assets/sk20170605_stochastic_binary_subdivision_003.png)
 
-## Version circuit
+### Version circuit
 
 ![schéma fritzing](./assets/schema_fritzing_binaringo_003.png)
 
