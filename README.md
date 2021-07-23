@@ -9,8 +9,23 @@ On peut aussi se fabriquer un PCB (réalisé sur kicad), mais ce n'est pas tout 
 
 ## Principe et utilisation
 
-TODO
+### Comment s'en servir ?
 
+#### Sur l'écran
+
+#### Utilisation des boutons
+
+L'encodeur rotatif permet de changer les valeurs du paramètre sélectionné.
+
+Chaque bouton réalise deux fonctions, selon qu'on appuie brièvement ou longuement
+
+| Bouton        | Clic court                                      | Clic long                       |
+| ------------- |:-----------------------------------------------:| -------------------------------:|
+| PARAM         | changer de paramètres                           | fixer le pattern                |
+| SET           | changer de preset                               | enregistrer le preset           |
+| GLOB          | changer REPEAT, SWING, BPM                      | play ON/OFF                     |
+| INST          | changer d'instrument                            | message MIDI "ALL NOTES OFF"    |
+| VIEW          | changer de vue : PARAMS, RHYTHME, TOUT, DEBUG   | vue ON/OFF                      |
 
 ## Prototypes
 
@@ -40,3 +55,6 @@ Historique des versions
 * binaringo_008 : version fonctionnelle, refonte avec nouvelles fonctions : swing, fixed on/off, plusieurs "views"
 * binaringo_009 : version fonctionnelle débuguée
 * binaringo_010 : version pour Yamaha QY70, qqes autres bugs corrigés
+
+### Pour la suite
+1 feature request : ajouter un signal MIDI clock pour interagir avec d'autres machines MIDI (ça risque de prendre un peu trop de temps sur un arduino nano/atmega328)
